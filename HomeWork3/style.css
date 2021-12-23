@@ -1,0 +1,32 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+main {
+  width: 1000px;
+  margin: 0 auto;
+}
+.elem {
+  width: 350px;
+  height: 220px;
+  padding: 15px 10px 20px 10px;
+  margin-bottom: 30px;
+  border-style: dashed;
+  border-width: thin;
+  border-color: red;
+  background-color: #00ff00;
+}
+
+.image-right {
+  float: right;
+  width: 200px;
+  height: 100px;
+  margin: 20px 0 20px 20px;
+}
+.image-left {
+  float: left;
+  width: 300px;
+  height: 160px;
+  margin: 0 20px 20px 0;
+}

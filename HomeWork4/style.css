@@ -1,0 +1,89 @@
+.task-one {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 25px;
+  background-color: #0d5825;
+  color: #fff;
+}
+.text {
+  padding-top: 40px;
+  text-align: center;
+}
+.card {
+  text-align: center;
+  padding: 100px 0px;
+}
+.card img {
+  width: 150px;
+}
+.card-one {
+  transition: all 1s ease;
+  transform: translate(60%) rotate(-20deg);
+}
+.card-two {
+  transition: all 1s ease;
+  transform: rotate(-10deg);
+}
+.card-three {
+  transition: all 1s ease;
+  transform: translate(-60%, 10%) rotate(10deg);
+}
+.card-three:hover {
+  transform: translate(-60%, -30%) rotate(10deg);
+}
+.card-two:hover {
+  transform: translate(0, -30%) rotate(-10deg);
+}
+.card-one:hover {
+  transform: translate(60%, -30%) rotate(-20deg);
+}
+.task-two {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.block1,
+.block2,
+.block3 {
+  width: 100px;
+  height: 100px;
+}
+.block1 {
+  background-color: #f00;
+}
+.block2 {
+  position: relative;
+  top: -50px;
+  right: -50px;
+  background-color: #00f;
+  z-index: 1;
+}
+.block3 {
+  position: relative;
+  top: -100px;
+  right: -100px;
+  background-color: #0f0;
+}
+.task-three {
+  po
+  transform: rotate(90deg);
+}
+.navlist::before {
+  content: "Menu Here";
+  background-color: grey;
+  display: inline;
+}
+.navlist:hover {
+  transform: translate(100%);
+}
+.navlist {
+  background-color: grey;
+  font-size: 18px;
+  color: #fff;
+  width: 150px;
+  /* transform: translate(-90%); */
+  transition: all 1s ease;
+}
+.navlist li {
+  margin: 20px 0;
+}
